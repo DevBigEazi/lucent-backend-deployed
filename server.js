@@ -10,7 +10,7 @@ const cors = require("cors");
 const corsOptions = require("./config/corsOptions");
 const mongoose = require("mongoose");
 const connectDB = require("./config/dbConn");
-const PORT = process.env.PORT || 8500;
+const PORT = process.env.PORT || "https://lucent-backend-deployed.onrender.com";
 const { logger } = require("./middleware/logEvents");
 
 console.log(process.env.NODE_ENV);
